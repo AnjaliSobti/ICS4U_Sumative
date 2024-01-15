@@ -1,3 +1,4 @@
+//getSheets class is the same as previous version
 import javax.swing.*;
 import java.awt.*;
 import java.io.BufferedReader;
@@ -48,8 +49,6 @@ int n = JOptionPane.showOptionDialog(null,
                 e.printStackTrace();
             }
         }
-
-        // highlight the ctrl+/ to turn into comment
         
         final JTable table = new JTable(data, columnNames);
         table.setPreferredScrollableViewportSize(new Dimension(1300, 250));
